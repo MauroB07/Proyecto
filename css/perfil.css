@@ -1,0 +1,140 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav a {
+    padding-right: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+/* Contenedor de tabla e imagen y body */
+.tabla {
+    
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 350px;
+    top: 9px;
+}
+.imagen{
+    
+   position: relative;
+   top: -205px;
+   left: 20px;
+   
+}
+
+.contenedor_perfil{
+    
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color:blue;
+    height: 800px;
+
+    
+}
+/*--------------*/
+
+caption {
+    
+    background-color: rgb(42, 64, 187);
+    color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0px 0px;
+
+}
+caption input{
+    list-style: none;
+    float: right;
+    
+}
+
+table {
+    
+    border-radius: 10px;
+    table-layout: fixed;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    text-align: left;
+    border-collapse: collapse;
+    
+}
+th {
+    
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    
+    min-width: 120px;
+    padding: 5px;
+    word-break: break-all;
+    background-color: rgb(241, 241, 240);
+}
+td {
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+    word-break: break-all;
+}
+
+.imagen img {
+    width: 300px;
+    height: 400px;
+}
+
+#cuadro {
+
+    box-shadow: rgba(255, 255, 255, 0.456) 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 0, 83);
+    color: white;
+    width: 300px;
+    height: 300px;
+    
+    border-radius: 10px 10px 10px 10px;
+    position: fixed;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    
+    
+}
+
+
+#formularioedit{
+    font-size:20px;
+    
+}
+#inputs{
+    font-size: 15px;
+}

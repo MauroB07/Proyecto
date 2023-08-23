@@ -1,0 +1,139 @@
+/* body{
+    background-color: black;
+} */
+
+body {
+	background: linear-gradient(-45deg, #b3b3b3, #6e6e6e, #3a3a3a, #181818);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+/*Animacion de body*/
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.container{
+    /* border: 2px solid rgb(255, 0, 0); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+/*Edicion --> continene <textarea>*/
+#edicion{
+    border: 1px solid rgb(255, 255, 255);
+    /* background-color: rgb(124, 124, 124); */
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+
+    background: linear-gradient(-45deg, #00fafa, #009b9b, #00595c, #003330);
+	background-size: 400% 400%;
+	animation: gradient2 15s ease infinite;
+	height: 75vh;
+}
+/*Animacion de Edicion*/
+@keyframes gradient2 {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/*Textarea*/
+textarea{
+    background-color: rgb(204, 204, 204);
+    width: 243px;
+    
+}
+textarea::placeholder{
+    text-align: center;
+    color: black;
+}
+textarea:hover {
+    transform: scale(1.1); 
+    border: 1px dashed rgb(0, 0, 0);
+}
+
+
+/*List_peli --> contiene la lista de peliculas*/
+#list_peli{
+    /* border: 1px solid rgb(255, 255, 255); */
+    border-radius: 10px;
+    /* background-color: rgb(122, 122, 122); */
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+
+    padding-top: 5px;
+
+}
+
+/*peli_list --> contine el ID y el Nombre de la pelicula*/
+#peli_list{
+    /* border: 1px solid rgb(0, 174, 255); */
+    background-color: rgb(124, 124, 124);
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3px;
+    
+    margin: 2px;
+    margin-bottom: 3px;
+    width:32%;
+
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+#id_de_la_peli{
+    background-color: rgb(177, 177, 177);
+    border: 1px solid rgb(0, 0, 0);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+    height: 25%;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+#Titulo_peli{
+    font-size: 25px;
+    background-color: rgb(224, 224, 224)
+    ;
+    font-family: 'Oswald', sans-serif;
+    height: 75%;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    
+    
+
+}
+
